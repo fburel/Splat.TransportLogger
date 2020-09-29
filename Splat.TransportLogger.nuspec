@@ -1,20 +1,28 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Package</id>
+    <id>Splat.TransportLogger</id>
     <version>1.0.0</version>
-    <authors>fl0</authors>
-    <owners>fl0</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <title>Splat.TransportLogger</title>
+    <authors>f10-solutions</authors>
+    <owners>f10-solutions</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Package description</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <description>A Splat.ILogger implementation that let you publish on different output</description>
+    <releaseNotes>First release</releaseNotes>
     <copyright>Copyright 2020</copyright>
-    <tags>Tag1 Tag2</tags>
+    <tags>splat logger winston</tags>
+    <projectUrl>https://github.com/fburel/Splat.TransportLogger</projectUrl>
+    <repository type="git" url="https://github.com/fburel/Splat.TransportLogger.git" branch="master" commit="2b79013f522c28248de3799d9460f89ada31a467" />
+    <license type="expression">MIT</license>
+
     <dependencies>
-      <dependency id="SampleDependency" version="1.0" />
+        <group targetFramework=".NETStandard2.0">
+            <dependency id="splat" version="9.5.49"/>
+        </group>
     </dependencies>
   </metadata>
+  <files>
+    <!-- Cross-platform reference assemblies -->
+    <file src="Splat.TransportLogger\bin\Release\netstandard2.0\Splat.TransportLogger.dll" target="lib\netstandard2.0\Splat.TransportLogger.dll" />
+  </files>
 </package>
