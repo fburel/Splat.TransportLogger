@@ -2,6 +2,12 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
+        <Title>Splat.TransportLogger</Title>
+        <Authors>f10-solution</Authors>
+        <Description>An implementation of Splat.ILogger that let you publish on custom output (like winston.js)</Description>
+        <Copyright>https://github.com/fburel/Splat.TransportLogger</Copyright>
+        <RepositoryUrl>https://github.com/fburel/Splat.TransportLogger</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
     </PropertyGroup>
 
     <ItemGroup>
